@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Buscar canciones</title>
+ <link rel="stylesheet" href="code.css">
+</head>
+<body>
+  <h1>Buscar canciones</h1>
+  
+  <form>
+    <label for="titulo">Título:</label>
+    <input type="text" id="titulo" name="titulo" placeholder="Ingrese el título de la canción"><br><br>
+    
+    <label for="artista">Artista:</label>
+    <input type="text" id="artista" name="artista" placeholder="Ingrese el nombre del artista"><br><br>
+    
+    <input type="submit" value="Buscar">
+  </form>
+
+  <div class="video-container" id="videos"></div>
+
+  <script type="text/javascript" src="code.js"></script>
+  <script src="https://apis.google.com/js/api.js"></script>
+</body>
+</html>
